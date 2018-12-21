@@ -1,0 +1,14 @@
+li {
+  margin-bottom: 1em;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  grid-gap: 0.3em;
+}
+
+li img {
+  width: 100%;
+}
+
+li p {
+  margin: 0;
+}
