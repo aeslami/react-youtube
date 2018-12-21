@@ -4,7 +4,8 @@
   "alias": ["youtube.nerdsnotebook.com"],
   "github": {
     "enabled": true,
-    "autoAlias": true
+    "autoAlias": true,
+    "silent": true
   },
   "builds": [
     {
