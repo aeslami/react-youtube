@@ -1,5 +1,6 @@
 import './SearchBar.css';
 import React, { Component } from 'react';
+import searchIcon from '../../img/search-icon.png';
 
 class SearchBar extends Component {
   constructor(props) {
@@ -22,10 +23,7 @@ class SearchBar extends Component {
           placeholder="What would you like to search for?"
           onChange={event => this.handleSearchBarOnChange(event.target.value)}
         />
-        <img
-          className="search-icon"
-          src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"
-        />
+        <img className="search-icon" src={searchIcon} />
       </div>
     );
   }
