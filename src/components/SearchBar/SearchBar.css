@@ -2,11 +2,12 @@
   width: 490px;
   display: block;
   margin: 0 auto;
+  margin-top: 2em;
 }
 
 input#search-bar {
   margin: 0 auto;
-  width: 100%;
+  width: calc(100% - 80px);
   height: 45px;
   padding: 0 20px;
   font-size: 1rem;
@@ -27,4 +28,10 @@ input#search-bar:focus {
   height: 75px;
   top: -62px;
   right: -45px;
+}
+
+@media only screen and (max-width: 900px) {
+  .search-container {
+    width: 80%;
+  }
 }
